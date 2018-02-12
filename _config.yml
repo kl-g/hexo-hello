@@ -78,6 +78,6 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/kl-g/kl-g.github.io
+  repo: http://github.com/kl-g/hexo-hello 
   branch: [master]
-  message: [message]
+  message: [Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}]
