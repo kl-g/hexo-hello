@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kl-g.github.io
+url: http://kl-g.github.io/hexo-hello
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,6 +78,6 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: http://github.com/kl-g/hexo-hello 
+  repo: https://kl-g.github.io/hexo-hello/ 
   branch: [master]
-  message: [Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}]
+  message: [message]
